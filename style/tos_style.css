@@ -1,0 +1,14 @@
+body {
+	margin: 0;
+	font-family: arial;
+	font-size: 13px;
+	color: #FFF;
+}
+
+a {
+	color: #C00;	
+}
+
+ol {
+	list-style-type:upper-alpha;	
+}

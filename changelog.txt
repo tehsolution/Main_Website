@@ -1,0 +1,24 @@
+Kana - 6th November 2013
+
+ * Button textures updated
+ * Button CSS updated for better aesthetic stability
+ * Some footer rating changed to 5 stars
+ * Added new extern class for non-padded, non-border-radiuses part
+
+Kana - 20th October 2013
+
+ * Refactored all CSS from index.html into con_style.css
+ * Refactored repeating CSS, new classes 'blue' and 'red' providing specific overriding CSS
+ * Decreased blank lines to 400 lines
+ * Moved internal JavaScript for right-click protection into a external file 'js_protection'
+ * Protection script now sources from same 'message' variable; now set to null for no message
+ * Background changed to bg_surf with slightly smaller character meme for higher quality
+ * Added line breaks to Dekaron Alive part to resync part heights
+ * 'Follow us' image no longer in the svr_graphic CSS class
+ * Photoshop recoloured original buttons
+ * 'Create Account' and Download links now source to the same button.png as their background image
+ * text color dropped to white
+ * text weight dropped to normal
+ * text colors and shadows restored
+ * minor grammer changes to promotional paragraphs
+ * 3star and 5star PNG's now available in /res/foot/

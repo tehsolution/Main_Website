@@ -1,0 +1,107 @@
+/* CSS Document */
+html, body {
+	height: 100%;
+	min-width: 850px;
+}
+
+body {
+	margin: 0;
+	background-image: url(../res/bg/bg_surf_deco.jpg);
+	background-position: center;
+	font-family: arial;
+	font-size: 13px;
+	color: #CCC;
+}
+
+h1 {
+	display: none;	
+}
+
+a {
+	text-decoration: none;
+	color: inherit;	
+}
+a:visited {
+	color: inherit;	
+}
+
+#nav_head {
+	background-image: url(../res/header/toolbar.png);
+	text-align: center;
+	font-size: 0;
+}
+
+#nav_head a.nav_link {
+	padding: 7px 20px;
+	color: #BBB;
+	display: inline-block;
+	border-right: solid 1px #222;
+	border-left: solid 1px #2f2624;
+	font-size: 13px;
+}
+
+#nav_head a.nav_link:first-child {
+	border-left: none;	
+}
+#nav_head a.nav_link:hover {
+	cursor: pointer;
+	background-color: #A41818;
+}
+
+#menu_skirt {
+	height: 11px;
+	background-image:url(../res/header/header_color_short.png);
+	background-position: center;
+}
+
+#img_head {
+	background-image: url(../res/header/header_destroyed2.png);
+	background-position: center;
+	height: 172px;
+	width: 100%;
+}
+
+
+#sub_nav {
+	margin: 0 auto;
+	margin-top: 40px;
+	width: 970px;
+	height: 18px;
+	padding: 9px 15px;
+	border-radius: 8px;
+	box-shadow: 0 0 8px 0 #FE9B55;
+	background: rgba(142,98,0,0.196);
+	border: 1px solid rgba(142, 98, 0, 0.506);
+}
+
+#content {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+#foot_extrude {
+	position: relative;
+	height: 172px;
+	width: 100%;
+	margin-top: 30px;
+	background-image: url(../res/foot/foot_extruded.png);
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+#foot_extrude #foot_extend {
+	position: absolute;
+	bottom: 0;
+	background-image:url(../res/foot/foot_bg.png);
+	height: 70px;
+	width: 100%;
+	z-index: -1;
+}
+
+#foot_extrude #foot_con {
+	margin: 0 auto;
+	/*margin-top: -172px;*/
+	width: 920px;
+	padding-top: 30px;
+	overflow: hidden;
+}
